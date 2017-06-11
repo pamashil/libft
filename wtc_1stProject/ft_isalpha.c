@@ -6,17 +6,17 @@
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/24 19:38:12 by pamashil          #+#    #+#             */
-/*   Updated: 2017/05/28 10:17:08 by pamashil         ###   ########.fr       */
+/*   Updated: 2017/06/11 12:58:14 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_bool	ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		return (true);
+		return (1);
 	}
-	return (false);
+	return (0);
 }

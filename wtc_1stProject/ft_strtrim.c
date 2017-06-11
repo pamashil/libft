@@ -6,15 +6,15 @@
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/10 02:43:32 by pamashil          #+#    #+#             */
-/*   Updated: 2017/06/11 03:24:04 by pamashil         ###   ########.fr       */
+/*   Updated: 2017/06/11 13:54:16 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t ft_trimleft(const char *s)
+static size_t	ft_trimleft(const char *s)
 {
-	size_t i;
+	size_t		i;
 
 	if (s == NULL)
 		return (0);
@@ -24,15 +24,15 @@ static size_t ft_trimleft(const char *s)
 	return (i);
 }
 
-static size_t ft_trimright(const char *s, size_t start)
+static size_t	ft_trimright(const char *s, size_t start)
 {
-	size_t i;
+	size_t		i;
 
 	if (s == NULL)
 		return (0);
 	i = ft_strlen(s) - 1;
 	while ((s[i] == ' ' || s[i] == '\n' || s[i] == '\t') && (i > start))
-			i--;
+		i--;
 	i++;
 	return (i);
 }

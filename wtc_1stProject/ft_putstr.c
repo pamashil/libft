@@ -6,7 +6,7 @@
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/22 20:35:46 by pamashil          #+#    #+#             */
-/*   Updated: 2017/06/11 03:25:21 by pamashil         ###   ########.fr       */
+/*   Updated: 2017/06/11 13:45:23 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr(char const *s)
 	int i;
 
 	if (s == NULL)
-		return;
+		return ;
 	i = 0;
 	while (s[i] != '\0')
 	{

@@ -6,7 +6,7 @@
 #    By: pamashil <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/05/31 16:27:30 by pamashil          #+#    #+#              #
-#    Updated: 2017/06/11 10:20:14 by pamashil         ###   ########.fr        #
+#    Updated: 2017/06/11 11:19:37 by jngoma           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -64,12 +64,6 @@ SRC = ft_toupper.c \
 	  ft_strsub.c \
 	  ft_strjoin.c \
 	  ft_strtrim.c \
-	  ft_lstnew.c \
-	  ft_lstadd.c \
-	  ft_lstiter.c \
-	  ft_lstdel.c \
-	  ft_lstdelone.c \
-	  ft_lstmap.c \
 	  ft_strsplit.c \
 	  ft_strnequ.c  
 

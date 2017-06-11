@@ -6,17 +6,17 @@
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/24 21:26:46 by pamashil          #+#    #+#             */
-/*   Updated: 2017/05/26 07:49:17 by pamashil         ###   ########.fr       */
+/*   Updated: 2017/06/11 12:58:04 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_bool	ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
-		return (true);
+		return (1);
 	}
-	return (false);
+	return (0);
 }

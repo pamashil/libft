@@ -6,7 +6,7 @@
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/06 13:31:19 by pamashil          #+#    #+#             */
-/*   Updated: 2017/06/06 13:46:35 by pamashil         ###   ########.fr       */
+/*   Updated: 2017/06/11 13:00:51 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,11 @@ int	ft_strncmp(char const *s1, char const *s2, size_t n);
 int	ft_memcmp(const void *s1, const void *s2, size_t n);
 int	ft_tolower(int c);
 int	ft_toupper(int c);
+int	ft_isalpha(int c);
+int	ft_isdigit(int c);
+int	ft_isalnum(int c);
+int	ft_isascii(int c);
+int	ft_isprint(int c);
 int	ft_atoi(const char *str);
 
 #endif

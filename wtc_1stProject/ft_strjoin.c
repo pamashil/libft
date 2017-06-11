@@ -6,7 +6,7 @@
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/02 13:54:51 by pamashil          #+#    #+#             */
-/*   Updated: 2017/06/10 22:44:46 by pamashil         ###   ########.fr       */
+/*   Updated: 2017/06/11 13:50:16 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*str;
 	int		length;
-	
+
 	if ((s1 == NULL) || (s2 == NULL))
 		return (NULL);
 	length = ft_strlen(s1) + ft_strlen(s2);
