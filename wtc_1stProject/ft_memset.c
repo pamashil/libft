@@ -1,24 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   tests.c                                            :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pamashil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/07 10:45:04 by pamashil          #+#    #+#             */
-/*   Updated: 2017/06/07 10:49:40 by pamashil         ###   ########.fr       */
+/*   Created: 2017/05/23 18:27:36 by pamashil          #+#    #+#             */
+/*   Updated: 2017/05/28 10:32:55 by pamashil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	main(int argc, char **argv)
+void	*ft_memset(void *b, int c, size_t len)
 {
-	if (argc != 3)
-		printf("\n");
-	else
+	size_t			x;
+	unsigned char	*ptr;
+
+	ptr = (unsigned char *)b;
+	x = 0;
+	while (len > x)
 	{
-		printf("%s\n", ft_strcat(argv[1], argv[2]));
+		ptr[x] = c;
+		x++;
 	}
-	return (0);
+	return (b);
 }
